@@ -5,6 +5,19 @@
     box-sizing: border-box;
 }
 
+/* General tag */
+
+body{
+    min-width: 480px;
+}
+
+h1{
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+}
+    
+/* General class */
+
 .flex{
     display: flex;
 }
@@ -16,6 +29,10 @@
 .header-background{
     background-color: #0084fd;
     margin-bottom: 1.5rem;
+}
+
+.lilla-background{
+   background-color:#9792e4 ;
 }
 
 .container{
@@ -62,6 +79,20 @@
     color: white;
 }
 
+.text-white{
+    color: white;
+}
+
+.central-panel-right{
+    border-radius: 1.5rem;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* more specific selector */
+
 nav.container{
     justify-content: space-between;
 }
@@ -77,8 +108,6 @@ div.logo i{
 div.card-left h1,
 div.card-right h1{
     color: #0084fd;
-    padding:1rem 0;
-    font-size: 1.5rem;
 }
 
 div.card-left p,
@@ -94,6 +123,27 @@ div.card-left img{
     width: 100%;
 }
 
+div.central-panel-left img,
+div.central-panel-right img
+{
+    width: 100%;
+}
+
+div.central-panel-left p{
+    line-height: 1.5rem;
+}
+
+div.central-panel-left h1{
+    font-size: 2rem;
+}
+
+div.central-panel-right p{
+    
+}
+
+/* Responsive mobile first */
+
+/* Tablet */
 @media screen and (min-width:768px){
     .container{
         display: flex;
@@ -109,7 +159,7 @@ div.card-left img{
         width: 70%;
     }
 }
-
+/* Desktop */
 @media screen and (min-width:1140px){
     .card-left-content{
         width: 50%;
