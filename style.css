@@ -19,7 +19,8 @@
 }
 
 .container{
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .logo{
@@ -29,14 +30,29 @@
 
 .card-left{
     width: 100%;
+    align-items: start;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
 }
 
 .card-right{
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 .card-background{
     background-color: #b5ddff;
+    border-radius: 1rem;
+}
+
+.button-skyblue{
+    background-color: #0084fd;
+    border-radius: 2rem;
+    border: none;
+    padding: 0.9rem 4.5rem;
+    color: white;
 }
 
 nav.container{
@@ -49,4 +65,21 @@ div.logo.flex{
 
 div.logo i{
     align-self: center;
+}
+
+div.card-left h1{
+    color: #0084fd;
+    padding-top: 3rem;
+    font-size: 1.8rem;
+}
+
+div.card-left p{
+    color: #5a6e7f;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    padding-left: 1.5rem;
+}
+
+div.card-left img{
+    width: 100%;
 }
