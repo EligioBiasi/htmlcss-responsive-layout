@@ -39,7 +39,11 @@
 
 .card-right{
     width: 100%;
-    margin-bottom: 1rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
 }
 
 .card-background{
@@ -67,13 +71,16 @@ div.logo i{
     align-self: center;
 }
 
-div.card-left h1{
+div.card-left h1,
+div.card-right h1{
     color: #0084fd;
     padding-top: 3rem;
     font-size: 1.8rem;
 }
 
-div.card-left p{
+div.card-left p,
+div.card-right p
+{
     color: #5a6e7f;
     font-size: 1.3rem;
     line-height: 2rem;
