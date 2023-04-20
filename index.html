@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>htmlcss-responsive-layout</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-tablet.css">
     <!-- FONT AWESOME 6.4.0 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -28,10 +27,14 @@
         <section class="flex wrap">
             <div class="container">    
                 <div class="card-left card-background flex wrap">
-                    <h1>Get a demo application</h1>
-                    <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi placeat repudiandae quisquam est voluptatum magnam repellat</strong></p>
-                    <button class="button-skyblue"><i class="fa-brands fa-apple fa-lg" style="color: #f4f7fb;"></i> <strong> App store</strong></button>
-                    <img src="img/phone.png" alt="smartphone">
+                    <div class="card-left-content flex wrap">
+                        <h1>Get a demo application</h1>
+                        <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi placeat repudiandae quisquam est voluptatum magnam repellat</strong></p>
+                        <button class="button-skyblue"><i class="fa-brands fa-apple fa-lg" style="color: #f4f7fb;"></i> <strong> App store</strong></button>
+                    </div>
+                    <div class="card-img">
+                        <img src="img/phone.png" alt="smartphone">
+                    </div>
                 </div>
 
                 <div class="card-right card-background flex">
