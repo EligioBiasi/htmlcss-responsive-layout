@@ -84,11 +84,12 @@ h1{
 }
 
 .central-panel-right{
-    border-radius: 1.5rem;
+    border-radius: 4.5rem;
     background-color: white;
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    margin: 2rem 0;
 }
 
 /* more specific selector */
@@ -138,7 +139,15 @@ div.central-panel-left h1{
 }
 
 div.central-panel-right p{
-    
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+div.central-panel-right i{
+    background-color: #9792e4;
+    padding: 1.2rem;
+    border-radius: 50%;
+    margin-top: 2rem;
 }
 
 /* Responsive mobile first */
@@ -171,5 +180,17 @@ div.central-panel-right p{
     }
     div.card-left img{
         width: 100%;
+    }
+    div.central-panel-left,
+    div.central-panel-right
+    {
+        width: calc(100%/2 - 1.5rem);
+        
+    }
+    div.central-panel-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 }
