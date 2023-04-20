@@ -4,3 +4,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+}
+
+.header-background{
+    background-color: #0084fd;
+}
+
+.container{
+    width: 100%;
+}
+
+.logo{
+    width: 40%;
+    padding: 1rem;
+}
+
+nav.container{
+    justify-content: space-between;
+}
+
+div.logo.flex{
+    justify-content: end;
+}
+
+div.logo i{
+    align-self: center;
+}
