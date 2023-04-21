@@ -83,6 +83,10 @@ h1{
     color: white;
 }
 
+.text-lilla{
+    color: #9792e4;
+}
+
 .central-panel-right{
     border-radius: 4.5rem;
     background-color: white;
@@ -118,6 +122,29 @@ h1{
     padding: 2rem 0;
 }
 
+.title-col{
+    justify-content: center;
+    align-self: center;
+}
+
+.col{
+    width: 100%;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.button-lilla{
+    background-color: #9792e4;
+    border: none;
+    padding: 0.6rem 3rem;
+    border-radius: 2rem;
+    color: white;
+}
 
 /* more specific selector */
 
@@ -202,6 +229,30 @@ div.central-panel-right i{
     line-height: 2.5rem;
     font-size: 2rem;
     padding: 0 2rem;
+}
+
+div.title-col h1{
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+div.col h1{
+    font-size: 2.5rem;
+}
+
+div.col h2{
+    font-size: 1.7rem;
+}
+
+div.col p{
+    line-height: 1.8rem;
+}
+
+div.col h2,
+div.col p,
+div.col button{
+    margin: 1rem 0;
 }
 /* Responsive mobile first */
 
