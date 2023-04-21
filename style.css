@@ -147,6 +147,10 @@ h1{
     color: white;
 }
 
+.about-us-left{
+    padding: 1rem 1.5rem;
+}
+
 /* more specific selector */
 
 nav.container{
@@ -189,7 +193,9 @@ div.central-panel-left p{
     line-height: 1.5rem;
 }
 
-div.central-panel-left h1{
+div.central-panel-left h1,
+div.about-us-left h1
+{
     font-size: 2rem;
 }
 
@@ -254,6 +260,18 @@ div.col h2,
 div.col p,
 div.col button{
     margin: 1rem 0;
+}
+
+div.about-us-left p{
+    padding: 1.4rem 0;
+    line-height: 2rem;
+}
+
+div.about-us-right img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 /* Responsive mobile first */
 
