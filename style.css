@@ -139,6 +139,15 @@ h1{
     margin: 1rem 0;
 }
 
+.quotation-marks{
+    color: #9792e4;
+    font-size: 20rem;
+    position: relative;
+    left: -86px;
+    top: -19px;
+}
+
+
 .button-lilla{
     background-color: #9792e4;
     border: none;
@@ -194,7 +203,8 @@ div.central-panel-left p{
 }
 
 div.central-panel-left h1,
-div.about-us-left h1
+div.about-us-left h1,
+div.about-us-right h1
 {
     font-size: 2rem;
 }
