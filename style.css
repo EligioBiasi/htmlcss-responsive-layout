@@ -125,6 +125,7 @@ h1{
 .title-col{
     justify-content: center;
     align-self: center;
+    width: 100%;
 }
 
 .col{
@@ -285,6 +286,9 @@ div.col button{
     .testimonial-card-content img{
         margin-left: 2rem;
     }
+    div.col{
+        width: calc((100%/2) - 1.5rem);
+    }
 }
 
 /* Desktop */
@@ -308,5 +312,8 @@ div.col button{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    div.col{
+        width: calc((100%/3) - 1.5rem);
     }
 }
