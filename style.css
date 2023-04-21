@@ -12,6 +12,10 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
+footer{
+    margin: 3rem 0;
+}
+
 h1{
     padding: 1.5rem 0;
     font-size: 1.5rem;
@@ -161,6 +165,22 @@ h1{
     padding: 1rem 1.5rem;
 }
 
+.banner{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.button-white{
+    background-color: white;
+    border: none;
+    padding: 0.6rem 3rem;
+    border-radius: 2rem;
+    color: #9792e4;
+}
+    
+
 /* more specific selector */
 
 nav.container{
@@ -283,6 +303,11 @@ div.about-us-right img{
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+div.banner h1{
+    font-size: 4rem;
+    color: yellow;
 }
 /* Responsive mobile first */
 
