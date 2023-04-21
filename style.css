@@ -194,7 +194,9 @@ div.central-panel-right i{
 }
 .testimonial-card img{
     border-radius: 50%;
-    width: 80%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 .testimonial-card p{
     line-height: 2.5rem;
