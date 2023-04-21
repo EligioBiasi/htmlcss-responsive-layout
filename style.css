@@ -9,6 +9,7 @@
 
 body{
     min-width: 480px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 h1{
@@ -315,6 +316,14 @@ div.about-us-right img{
         margin-left: 2rem;
     }
     div.col{
+        width: calc((100%/2) - 1.5rem);
+    }
+    .about-us{
+        display: flex;
+    }
+    div.about-us-left,
+    div.about-us-right
+    {
         width: calc((100%/2) - 1.5rem);
     }
 }
