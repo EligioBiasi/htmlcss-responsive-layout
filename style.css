@@ -13,7 +13,7 @@ body{
 }
 
 footer{
-    margin: 3rem 0;
+    margin-top: 3rem;
 }
 
 h1{
@@ -39,6 +39,10 @@ h1{
 .lilla-background{
    background-color:#9792e4 ;
 }
+
+.black-background{
+    background-color: black ;
+ }
 
 .container{
     width: 85%;
@@ -147,9 +151,9 @@ h1{
 .quotation-marks{
     color: #9792e4;
     font-size: 20rem;
-    position: relative;
-    left: -86px;
-    top: -19px;
+    position: absolute;
+    left: 154px;
+    top: -66px;
 }
 
 
@@ -161,8 +165,8 @@ h1{
     color: white;
 }
 
-.about-us-left{
-    padding: 1rem 1.5rem;
+.about-us-right{
+    position: relative;
 }
 
 .banner{
@@ -293,6 +297,12 @@ div.col button{
     margin: 1rem 0;
 }
 
+.about-us-left,
+.about-us-right
+{
+    padding: 1rem 1.5rem;
+}
+
 div.about-us-left p{
     padding: 1.4rem 0;
     line-height: 2rem;
@@ -351,6 +361,7 @@ div.banner h1{
     {
         width: calc((100%/2) - 1.5rem);
     }
+    
 }
 
 /* Desktop */
