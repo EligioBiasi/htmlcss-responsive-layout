@@ -20,6 +20,15 @@ h1{
     padding: 1.5rem 0;
     font-size: 1.5rem;
 }
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
     
 /* General class */
 
@@ -51,7 +60,7 @@ h1{
 }
 
 .logo{
-    width: 40%;
+    width: 45%;
     padding: 1rem;
 }
 
@@ -197,6 +206,16 @@ div.logo.flex{
 
 div.logo i{
     align-self: center;
+}
+
+div.logo ul{
+    justify-content: space-between;
+    align-items: center;
+    z-index: -1;
+}
+
+div.logo ul.flex li{
+    padding: 0 1.5rem;
 }
 
 div.card-left h1,
@@ -366,6 +385,15 @@ div.banner h1{
 
 /* Desktop */
 @media screen and (min-width:1140px){
+    
+    div.logo ul{
+      z-index: 1;
+    }
+
+    div.logo i{
+        display: none;
+    }
+
     .card-left-content{
         width: 50%;
     }
