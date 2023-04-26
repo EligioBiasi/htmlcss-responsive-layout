@@ -165,6 +165,10 @@ a{
     top: -66px;
 }
 
+.quotation-marks-medium{
+    font-size: 3rem;
+    text-align: center;
+}
 
 .button-lilla{
     background-color: #9792e4;
